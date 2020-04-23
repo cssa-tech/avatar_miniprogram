@@ -43,14 +43,15 @@
 .avatar{
     /* width: 6.25rem;
     height: 6.25rem; */
-    width: 5.25rem;
-    height: 5.25rem;
+    width: calc(10rem * 0.9);
+    height: calc(10rem * 0.9);
     border-radius: 50%;
     position: absolute;
+    z-index:1;
     /* top: 18%;
     left: 19%; */
-    top: 24%;
-    left: 25%;
+    top: calc(10rem * 0.05);
+    left: calc(10rem * 0.05);
 }
 
 .h1{

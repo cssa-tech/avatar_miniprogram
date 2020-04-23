@@ -46,7 +46,13 @@ Page({
     // var avatarurl_y = 50;
     // contex.arc(avatarurl_width / 2 + avatarurl_x, avatarurl_heigth / 2 + avatarurl_y, avatarurl_width / 2, 0, Math.PI * 2, false);//这个地方我画了个头像的圆
     // contex.clip();
-    contex.drawImage(self.data.src, 127, 120);
+    var p = 0.05
+    var x = avatarurl_width * p
+    var y = x
+    var w = avatarurl_width - x * 2
+    var h = w
+
+    contex.drawImage(self.data.src, x, y, w, h);
     contex.restore();
     contex.save();
     contex.beginPath(); //开始绘制
@@ -54,7 +60,7 @@ Page({
     // contex.clip();
     //contex.arc(25, 25, 25, Math.PI * 2, false);
     //contex.clip();
-    contex.drawImage(self.data.bgsrc, 0, 0, avatarurl_width, avatarurl_heigth); // 这个是我的背
+    contex.drawImage(self.data.bgsrc, 0, 0, avatarurl_width, avatarurl_heigth);
     contex.restore();
     // contex.setFontSize(20)
     // contex.fillStyle = "#fff";
