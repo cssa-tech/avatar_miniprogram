@@ -1,34 +1,27 @@
 // pages/select/select.js
 const app = getApp();
 var _tousList = [{
-  name: '',
-  coverImgUrl: '../../images/1.png'
-}, {
-    name: '类 型 2',
+      coverImgUrl: '../../images/0.png'
+    }, {
+      coverImgUrl: '../../images/7.png'
+    }, {
+      coverImgUrl: '../../images/8.png'
+    }, {
+      coverImgUrl: '../../images/9.png'
+    }, {
+      coverImgUrl: '../../images/1.png'
+    }, {
   coverImgUrl: '../../images/2.png'
 }, {
-    name: '类 型 3',
   coverImgUrl: '../../images/3.png'
 }, {
-    name: '类 型 4',
   coverImgUrl: '../../images/4.png'
 },
 {
-  name: '类 型 5',
   coverImgUrl: '../../images/5.png'
 },
 {
-  name: '类 型 6',
   coverImgUrl: '../../images/6.png'
-}, {
-  name: '类 型 7',
-  coverImgUrl: '../../images/7.png'
-}, {
-  name: '类 型 8',
-  coverImgUrl: '../../images/8.png'
-}, {
-  name: '类 型 9',
-  coverImgUrl: '../../images/9.png'
 }
 ]
 

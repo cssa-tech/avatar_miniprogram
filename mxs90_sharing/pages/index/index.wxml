@@ -1,6 +1,6 @@
 <view class="tou-list-container">
   <view class="big-photo-list">
-    <p>左右滑动选择你心仪的头像框</p>
+    <p class="p1">左右滑动选择你心仪的头像框</p>
 
     <swiper indicator-dots="{{indicatorDots}}">
       <block>
@@ -9,5 +9,7 @@
         </swiper-item>
       </block>
     </swiper>
+
+    <text class="p2">版权归属：北大附中水煮蛋工设计作室\n技术支持：肖子墨，蓝校服</text>
   </view>
 </view>
