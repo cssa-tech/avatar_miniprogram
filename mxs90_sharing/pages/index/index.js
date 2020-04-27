@@ -22,7 +22,7 @@ var _tousList = [{
   coverImgUrl: '../../images/6.png'
 }, {
   name: '类 型 7',
-  coverImgUrl: '../../images/6.png'
+  coverImgUrl: '../../images/7.png'
 }, {
   name: '类 型 8',
   coverImgUrl: '../../images/8.png'
@@ -38,7 +38,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    touList: _tousList
+    touList: _tousList,
+    indicatorDots: true
   },
 
   /**

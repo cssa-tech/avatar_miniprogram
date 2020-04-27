@@ -1,6 +1,8 @@
 <view class="tou-list-container">
   <view class="big-photo-list">
-    <swiper indidator-dots="10">
+    <p>左右滑动选择你心仪的头像框</p>
+
+    <swiper indicator-dots="{{indicatorDots}}">
       <block>
         <swiper-item wx:for="{{touList}}" bindtap="detail" data-tounum="{{index}}">
           <image class="photo" src="{{item.coverImgUrl}}"></image>

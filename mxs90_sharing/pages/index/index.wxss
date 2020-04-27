@@ -20,13 +20,30 @@
   padding: 20rpx; 
 }
 
-.photo {
+swiper {
+  float: left;
+  margin-left: 0px;
+  margin-top: 10vh;
   width: 100%;
-  height: 220rpx;
-  box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 4px;
+  height: 60vw;
+}
+
+p {
+  float: left;
+  margin-top: 10vh;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  color: #555555;
+}
+
+.photo {
+  margin-top: 0px;
+  margin-left: 25vw;
+  width: 50vw;
+  height: 50vw;
   background: #fff;
-  border-radius: 10px;
-  /* background-color: #cdeffb; */
+  justify-content: center;
 }
 
 .tou-name {
