@@ -1,28 +1,22 @@
 // pages/select/select.js
 const app = getApp();
 var _tousList = [{
-      coverImgUrl: '../../images/0.png'
+      coverImgUrl: '../../images/uiuc_june/1.png'
     }, {
-      coverImgUrl: '../../images/7.png'
+      coverImgUrl: '../../images/uiuc_june/2.png'
     }, {
-      coverImgUrl: '../../images/8.png'
+      coverImgUrl: '../../images/uiuc_june/3.png'
     }, {
-      coverImgUrl: '../../images/9.png'
+      coverImgUrl: '../../images/uiuc_june/4.png'
     }, {
-      coverImgUrl: '../../images/1.png'
+      coverImgUrl: '../../images/uiuc_june/5.png'
     }, {
-  coverImgUrl: '../../images/2.png'
-}, {
-  coverImgUrl: '../../images/3.png'
-}, {
-  coverImgUrl: '../../images/4.png'
-},
-{
-  coverImgUrl: '../../images/5.png'
-},
-{
-  coverImgUrl: '../../images/6.png'
-}
+      coverImgUrl: '../../images/uiuc_june/6.png'
+    }, {
+      coverImgUrl: '../../images/uiuc_june/7.png'
+    }, {
+      coverImgUrl: '../../images/uiuc_june/8.png'
+    }
 ]
 
 Page({
@@ -54,9 +48,9 @@ Page({
 
   onShareAppMessage: function (res) {
     return {
-      title: '北大附中校庆头像制作',
+      title: 'UIUC CSSA 24er新生迎新头像制作',
       path: 'pages/index/index',
-      imageUrl: '../../images/0.png',
+      imageUrl: '../../images/1.png',
       success: function (shareTickets) {
         //
       },

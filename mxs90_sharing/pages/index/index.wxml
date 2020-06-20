@@ -1,6 +1,6 @@
 <view class="tou-list-container">
   <view class="big-photo-list">
-    <p class="p1">左右滑动选择你心仪的头像框</p>
+    <text class="p1">欢迎 UIUC 24er！\n左右滑动选择你心仪的头像框</text>
 
     <swiper indicator-dots="{{indicatorDots}}">
       <block>
@@ -10,6 +10,6 @@
       </block>
     </swiper>
 
-    <text class="p2">版权归属：北大附中水煮蛋设计工作室\n技术支持：肖子墨 - 蓝校服</text>
+    <text class="p2">版权归属：CSSA传媒/新媒体部\n技术支持：CSSA网络技术部</text>
   </view>
 </view>
