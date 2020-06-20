@@ -52,4 +52,21 @@ Page({
     }
   },
 
+  onShareAppMessage: function (res) {
+    return {
+      title: '北大附中校庆头像制作',
+      path: 'pages/index/index',
+      imageUrl: '../../images/0.png',
+      success: function (shareTickets) {
+        //
+      },
+      fail: function (res) {
+        //
+      },
+      complete: function (res) {
+        //
+      }
+    }
+  }
+
 })
