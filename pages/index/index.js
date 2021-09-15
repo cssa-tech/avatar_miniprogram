@@ -20,10 +20,6 @@ const app = getApp();
 // ]
 var _tousList = [
   {
-    coverImgUrl: '../../images/uiuc_mid_autumn_21/mag.png',
-    author: "Mag",
-  }, 
-  {
     coverImgUrl: '../../images/uiuc_mid_autumn_21/pekkie.png',
     author: "Pekkie",
   }, 
@@ -31,6 +27,10 @@ var _tousList = [
     coverImgUrl: '../../images/uiuc_mid_autumn_21/YY.png',
     author: "丫丫",
   },
+  {
+    coverImgUrl: '../../images/uiuc_mid_autumn_21/mag.png',
+    author: "Mag",
+  }, 
 ]
 
 Page({
