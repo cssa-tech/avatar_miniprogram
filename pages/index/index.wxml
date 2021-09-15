@@ -1,11 +1,12 @@
 <view class="tou-list-container">
   <view class="big-photo-list">
-    <text class="p1">欢迎 UIUC 24er！\n左右滑动选择你心仪的头像框</text>
+    <text class="p1">中秋节快乐！\n左右滑动选择你心仪的头像框</text>
 
     <swiper indicator-dots="{{indicatorDots}}">
       <block>
         <swiper-item wx:for="{{touList}}" bindtap="detail" data-tounum="{{index}}">
-          <image class="photo" src="{{item.coverImgUrl}}"></image>
+          <image class="photo" src="{{item.coverImgUrl}}" />
+          <text style="color:silver;">作者：{{item.author}}</text>
         </swiper-item>
       </block>
     </swiper>

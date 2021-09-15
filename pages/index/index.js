@@ -1,22 +1,36 @@
 // pages/select/select.js
 const app = getApp();
-var _tousList = [{
-      coverImgUrl: '../../images/uiuc_june/1.png'
-    }, {
-      coverImgUrl: '../../images/uiuc_june/2.png'
-    }, {
-      coverImgUrl: '../../images/uiuc_june/3.png'
-    }, {
-      coverImgUrl: '../../images/uiuc_june/4.png'
-    }, {
-      coverImgUrl: '../../images/uiuc_june/5.png'
-    }, {
-      coverImgUrl: '../../images/uiuc_june/6.png'
-    }, {
-      coverImgUrl: '../../images/uiuc_june/7.png'
-    }, {
-      coverImgUrl: '../../images/uiuc_june/8.png'
-    }
+// var _tousList = [{
+//       coverImgUrl: '../../images/uiuc_june/1.png'
+//     }, {
+//       coverImgUrl: '../../images/uiuc_june/2.png'
+//     }, {
+//       coverImgUrl: '../../images/uiuc_june/3.png'
+//     }, {
+//       coverImgUrl: '../../images/uiuc_june/4.png'
+//     }, {
+//       coverImgUrl: '../../images/uiuc_june/5.png'
+//     }, {
+//       coverImgUrl: '../../images/uiuc_june/6.png'
+//     }, {
+//       coverImgUrl: '../../images/uiuc_june/7.png'
+//     }, {
+//       coverImgUrl: '../../images/uiuc_june/8.png'
+//     }
+// ]
+var _tousList = [
+  {
+    coverImgUrl: '../../images/uiuc_mid_autumn_21/mag.png',
+    author: "Mag",
+  }, 
+  {
+    coverImgUrl: '../../images/uiuc_mid_autumn_21/pekkie.png',
+    author: "Pekkie",
+  }, 
+  {
+    coverImgUrl: '../../images/uiuc_mid_autumn_21/YY.png',
+    author: "丫丫",
+  },
 ]
 
 Page({
@@ -48,7 +62,7 @@ Page({
 
   onShareAppMessage: function (res) {
     return {
-      title: 'UIUC CSSA 24er新生迎新头像制作',
+      title: '头像制作',
       path: 'pages/index/index',
       imageUrl: '../../images/1.png',
       success: function (shareTickets) {
