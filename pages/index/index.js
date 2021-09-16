@@ -21,16 +21,20 @@ const app = getApp();
 var _tousList = [
   {
     coverImgUrl: '../../images/uiuc_mid_autumn_21/pekkie.png',
-    author: "Pekkie",
+    author: 'Pekkie',
   }, 
   {
     coverImgUrl: '../../images/uiuc_mid_autumn_21/YY.png',
-    author: "丫丫",
+    author: '丫丫',
   },
   {
     coverImgUrl: '../../images/uiuc_mid_autumn_21/mag.png',
-    author: "Mag",
+    author: 'Mag',
   }, 
+  {
+    coverImgUrl: '../../images/uiuc_mid_autumn_21/tianny.png',
+    author: 'Tianny',
+  }
 ]
 
 Page({
