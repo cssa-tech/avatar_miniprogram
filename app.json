@@ -7,7 +7,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "UIUC CSSA 新生迎新头像制作",
+    "navigationBarTitleText": "UIUC CSSA 中秋头像生成器",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

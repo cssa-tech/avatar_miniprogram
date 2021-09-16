@@ -2,11 +2,12 @@
 <!--合成生产头像页-->
 <view class="container flex">
     <view>
+        <text class="p1">请选择一张图片来搭配边框</text>
         <canvas canvas-id="myCanvas" style="margin-top: 10" class='bg'>
             <image src="{{src}}" class="avatar {{bgcss}}"></image>
             <image src="{{bgsrc}}" style='position: absolute; z-index: 2; top:0; left:0;width:10rem; height:10rem;'></image>
         </canvas>
-        <!--这里的canvas有个BUG，懂的人都懂，如果解决望告知-->    
+        <!--这里的canvas有个BUG，懂的人都懂，如果解决望告知-->
         <view style='position:absolute;left:400rpx;'><canvas  canvas-id='ahaucanvas' style='height:840px;width:840px;position:absolute;left:400rpx;'></canvas></view> 
         <button class="item flex" bindtap="upload" style= 'margin-top:15px;margin-bottom:15px'>选择图片</button>
         <button type="primary" class='item flex' bindtap='generate' >生成头像</button>
