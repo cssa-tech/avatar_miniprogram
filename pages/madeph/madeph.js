@@ -46,7 +46,7 @@ Page({
     // var avatarurl_y = 50;
     // contex.arc(avatarurl_width / 2 + avatarurl_x, avatarurl_heigth / 2 + avatarurl_y, avatarurl_width / 2, 0, Math.PI * 2, false);//这个地方我画了个头像的圆
     // contex.clip();
-    var p = 0.05
+    var p = 0.023
     var x = avatarurl_width * p
     var y = x
     var w = avatarurl_width - x * 2
