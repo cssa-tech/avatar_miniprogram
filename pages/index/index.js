@@ -1,7 +1,23 @@
 // pages/select/select.js
 const app = getApp();
 
-var _tousList = [
+const _tousList = [
+  {
+    coverImgUrl: '../../images/uiuc_mid_autumn_22/wang.png',
+    author: '王若玘',
+  },
+  {
+    coverImgUrl: '../../images/uiuc_mid_autumn_22/chen.png',
+    author: '陈谦路',
+  }, 
+  {
+    coverImgUrl: '../../images/uiuc_mid_autumn_22/du1.png',
+    author: '林子秋',
+  }, 
+  {
+    coverImgUrl: '../../images/uiuc_mid_autumn_22/du2.png',
+    author: '林子秋',
+  },
   {
     coverImgUrl: '../../images/uiuc_mid_autumn_21/pekkie.png',
     author: 'Pekkie',
@@ -17,22 +33,6 @@ var _tousList = [
   {
     coverImgUrl: '../../images/uiuc_mid_autumn_21/tianny.png',
     author: 'Tianny',
-  },
-  {
-    coverImgUrl: '../../images/uiuc_mid_autumn_22/chen.png',
-    author: '陈谦路',
-  }, 
-  {
-    coverImgUrl: '../../images/uiuc_mid_autumn_22/du1.png',
-    author: '林子秋',
-  }, 
-  {
-    coverImgUrl: '../../images/uiuc_mid_autumn_22/du2.png',
-    author: '林子秋',
-  }, 
-  {
-    coverImgUrl: '../../images/uiuc_mid_autumn_22/wang.png',
-    author: '王若玘',
   },
 ]
 
