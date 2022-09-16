@@ -1,7 +1,10 @@
 <view class="tou-list-container">
   <view class="big-photo-list">
     <text class="p1">中秋节快乐！\n左右滑动选择你心仪的头像框</text>
-
+    <view class="buttons">
+      <button type="primary" size="mini" bindtap="switchTo2021">2021</button>
+      <button type="primary" size="mini" bindtap="switchTo2022">2022</button>
+    </view>
     <swiper indicator-dots="{{indicatorDots}}">
       <block>
         <swiper-item wx:for="{{touList}}" bindtap="detail" data-tounum="{{index}}">
